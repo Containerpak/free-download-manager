@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Free Download Manager
+Comment=Organize and accelerate file downloads.
+Exec=fdm %U
+Icon=free-download-manager
+Terminal=false
+Categories=Network;FileTransfer;Utility;
