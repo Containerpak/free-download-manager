@@ -3,8 +3,9 @@
   "manifest_version": "2.0",
   "name": "Free Download Manager",
   "description": "Organize and accelerate file downloads.",
-  "version": "6.34.2.6926",
+  "version": "6.34.4.6974",
   "image": "ghcr.io/containerpak/free-download-manager:main",
+  "runtime_sources": [{"name": "freedownloadmanager_6.34.4.6974_amd64.deb", "url": "https://files2.freedownloadmanager.org/6/latest/freedownloadmanager.deb", "sha256": "299c5bef180b578ae223e03a108279c3b80ec7f9bce3e1792469d46dee2fc6cd", "size": 41530244, "installer": "dpkg"}],
   "binaries": [
     "/usr/bin/fdm"
   ],
