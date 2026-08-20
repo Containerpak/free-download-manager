@@ -49,8 +49,8 @@ jobs:
           cache-to: type=gha,mode=max
           provenance: mode=max
           sbom: true
-      - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/free-download-manager:main sh -c 'test -x /usr/bin/fdm && test -f /usr/share/applications/free-download-manager.desktop'
+      - name: Verify adapter
+        run: docker run --rm ghcr.io/containerpak/free-download-manager:main sh -c 'test -L /usr/bin/fdm && test ! -e /opt/freedownloadmanager/fdm && test -f /usr/share/applications/free-download-manager.desktop'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/free-download-manager@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"
 
