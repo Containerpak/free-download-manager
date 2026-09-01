@@ -4,7 +4,7 @@
   "name": "Free Download Manager",
   "description": "Organize and accelerate file downloads.",
   "version": "6.34.4.6974",
-  "image": "ghcr.io/containerpak/free-download-manager@sha256:7e030c2fc8c26f57928b0a2cb1e43191c3b6d4ad54c492b6a42b3df656b2f8e8",
+  "image": "ghcr.io/containerpak/free-download-manager@sha256:97b0c8d96fb0d1364fa418027fe36608916a276fa338eb0a30476a50fa7286b8",
   "runtime_sources": [
     {
       "name": "freedownloadmanager_6.34.4.6974_amd64.deb",
